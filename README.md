@@ -1,6 +1,5 @@
 _This is for GW Hippo Hacks April 14, 2018_
 
-http://35.196.55.228:5000/
 
 ## 1. Background
 
@@ -19,7 +18,7 @@ Build an algorithm to pre-screen applications, so that DonorsChoose.org can auto
 
 If the model is reliable, it can help more teachers get funded more quickly, and with less cost to DonorsChoose.org, allowing them to channel even more funding directly to classrooms across the country.
 
-### - Main technology
+### - Main technologies
 
 We use **Google Cloud Compute Engine** and **Storage** to deploy a machine learning model in Python 3 and create a prediction application demo that can be used for future data.
 
@@ -29,11 +28,11 @@ The dataset contains information from teachers' project applications to DonorsCh
 
 ## 2. Data Preparation
 
-The main difficulty for data preparation is to create handmade new features. We did it in two main steps, first is to create new variables from the resources dataset. The second one is to use text mining to find important words that appear frequently in teacher proposal.
+The main difficulty for data preparation is to create handmade new features. We did it in two main steps, first is to create new variables from the resources dataset. The second one is to use sentiment analysis and text mining (TF-IDF) to find important words that appear frequently in teacher proposal.
 
 ## 3. Model
 
-We used xgboost packacge to create a supervised machine learning model to predict whether an application will be approved. We saved the model in Google Cloud Storage for further prediction in the demo.
+We used xgboost packacge to create a supervised machine learning model to predict whether an application will be approved. The validate AUC is almost 0.8 which shows a relatively good prediction model. We saved the model in Google Cloud Storage for further prediction in the demo. 
 
 ## 4. Demo
 
