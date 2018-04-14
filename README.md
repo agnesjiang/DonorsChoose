@@ -32,7 +32,7 @@ The main difficulty for data preparation is to create handmade new features. We 
 
 ## 3. Model
 
-We used xgboost packacge to create a supervised machine learning model to predict whether an application will be approved. The validate AUC is almost 0.8 which shows a relatively good prediction model. We saved the model in Google Cloud Storage for further prediction in the demo. 
+We used xgboost package to create a supervised machine learning model to predict whether an application will be approved. The validate AUC is almost 0.8 which shows a relatively good prediction model. We saved the model in Google Cloud Storage for further prediction in the demo. 
 
 ## 4. Demo
 
