@@ -36,7 +36,7 @@ We used xgboost package to create a supervised machine learning model to predict
 
 ## 4. Demo
 
-Save the data you want socre as "sample_test.csv" with "auto_final.py" in the same folder and enter "python auto_final.py" to shell and the shell will print same basic infomation about the score data and generate output scoring result as a new csv file (this demo is in demo_auto_score.ipynb) .
+Save the data you want to score as "sample_test.csv" with "auto_final.py" in the same folder and enter "python auto_final.py" to shell and the shell will print same basic information about the score data and generate output scoring result as a new csv file (this demo is in demo_auto_score.ipynb) .
 
 
 
